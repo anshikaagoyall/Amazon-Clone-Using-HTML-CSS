@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Clone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<!-- NAVBAR----------------------------------------------------- -->
+
+<header>
+    <div class="navbar">
+        <div class="navlogo border">
+            <div class="logo">             
+            </div>
+        </div>
+        <div class="navaddress border">
+            <p class="deliver">Deliver to</p>
+            <div class="addressicon">
+                <i class="fa-solid fa-location-dot"></i>
+                <p class="deliverto">India</p>
+            </div>
+        </div>
+        <div class="search">
+            <select name="Search Bar" class="choose">
+                <option>All</option>
+                <option>All Departments</option>
+                <option>Arts & Crafts</option>
+                <option>Automotive</option>
+                <option>Baby</option>
+                <option>Beauty & Personal Care</option>
+                <option>Books</option>
+                <option>Boys' Fashion</option>
+                <option>Computers</option>
+                <option>Deals</option>
+                <option>Digital Music</option>
+                <option>Electronics</option>
+                <option>Girls' Fashion</option>
+                <option>Health & Household</option>
+                <option>Home & Kitchen</option>
+                <option>Industrial & Scientific</option>
+                <option>Kindle Store</option>
+                <option>Luggage</option>
+                <option>Men's Fashion</option>
+                <option>Movies & TV</option>
+                <option>Music, CDs & Vinyl</option>
+                <option>Pet Supplies</option>
+                <option>Prime Video</option>
+                <option>Software</option>
+                <option>Sports & Outdoors</option>
+                <option>Tools & Home Improvement</option>
+                <option>Toys & Games</option>
+                <option>Video Games</option>
+                <option>Women's Fashion</option>
+            </select>
+            <input placeholder="Search Amazon" class="searchbar">
+            <button class="searchicon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+        </div>
+        <div class="language border">
+            <img src="flag.png" class="flag">
+            <select name="chooselang" class="chooselang">
+                <option>EN</option>
+            </select>
+        </div>
+        <div class="signin border">
+            <div class="hello">
+                Hello, sign in
+            </div>
+            <select name="list" class="list">
+                <option>Acounts & Lists</option>
+            </select>
+        </div>
+        <div class="returnorders border">
+            <div class="return">
+                Returns
+            </div>
+            <div class="orders">
+                & Orders
+            </div>
+        </div>
+        <div class="cart border">
+            <div class="cartlogo">
+            <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+            <div class="carttext">
+                Cart
+            </div>
+        </div>
+    </div>
+</header>
+
+<body>
+
+<!-- PANEL------------------------------------------------------------ -->
+
+    <div class="panel">
+        <div class="bar border">
+            <i class="fa-solid fa-bars"></i>
+            <p class="all">All</p>
+        </div>
+        <button class="elements border">Today's Deals</button>
+        <button class="elements border">Customer Service</button>
+        <button class="elements border">Registry</button>
+        <button class="elements border">Gift Cards</button>
+        <button class="elements border">Sell</button>
+        <div class="elements" id="empty"></div>
+        <div class="deals">
+            <button class="elements border" id="deals">Shop Deals in Electronics</button>
+        </div>
+    </div>
+
+<!-- BACKGROUND IMAGE------------------------------------------------- -->
+
+    <div class="herosec">
+        <div class="message">
+            You are on amazon.com. You can also shop on Amazon India for millions of products with fast local delivery.
+            <a href="amazon.in" class="amazonIndia">Click here to go to amazon.in</a>
+        </div>
+    </div>
+
+<!-- BROWSING BOXES-------------------------------------------------- -->
+    
+    <div class="browsing">
+
+        <div class="box">
+            <h2 class="padding">Gaming Accessories</h2>
+            <div class="box1 padding">     
+                <div class="image" style="background-image: url('gaming1.jpg');"></div>
+                <div class="image" style="background-image: url('gaming2.jpg');"></div>
+            </div>
+            <div class="box1 padding">
+                <div class="image" style="background-image: url('gaming3.jpg');"></div>
+                <div class="image" style="background-image: url('gaming4.jpg');"></div>
+            </div>
+            <p class="seemore padding">See more</p>
+        </div>
+
+
+        <div class="box">
+            <h2>Deals in PCs</h2>
+            <div class="image1" style="background-image: url('pcs.jpg');"></div>
+            <p class="seemore">See all deals</p>
+        </div>
+
+
+        <div class="box">
+            <h2>Amazon Gadget Store</h2>
+            <div class="box1">     
+                <div class="image" style="background-image: url('gadget1.jpg');"></div>
+                <div class="image" style="background-image: url('gadget2.jpg');"></div>
+            </div>
+            <div class="box1">
+                <div class="image" style="background-image: url('gadget3.jpg');"></div>
+                <div class="image" style="background-image: url('gadget4.jpg');"></div>
+            </div>
+            <p class="seemore">Shop Now</p>
+        </div>
+
+
+        <div class="box">
+            <h2>Refresh Your Space</h2>
+            <div class="box1">     
+                <div class="image" style="background-image: url('space1.jpg');"></div>
+                <div class="image" style="background-image: url('space2.jpg');"></div>
+            </div>
+            <div class="box1">
+                <div class="image" style="background-image: url('space3.jpg');"></div>
+                <div class="image" style="background-image: url('space4.jpg');"></div>
+            </div>
+            <p class="seemore">See more</p>
+        </div>
+
+
+        <div class="box">
+            <h2>Shop Latest Trends</h2>
+            <div class="box1">     
+                <div class="image" style="background-image: url('fashion1.jpg');"></div>
+                <div class="image" style="background-image: url('fashion2.jpg');"></div>
+            </div>
+            <div class="box1">
+                <div class="image" style="background-image: url('fashion3.jpg');"></div>
+                <div class="image" style="background-image: url('fashion4.jpg');"></div>
+            </div>
+            <p class="seemore">Shop Now</p>
+        </div>
+
+        <div class="box">
+            <h2>Home Decor Under $50</h2>
+            <div class="image1" style="background-image: url('homedecor.jpg');"></div>
+            <p class="seemore">See all deals</p>
+        </div>
+
+        <div class="box">
+            <h2>Toys Under $25</h2>
+            <div class="image1" style="background-image: url('toys.jpg');"></div>
+            <p class="seemore">See all deals</p>
+        </div>
+
+        <div class="box">
+            <h2>Beauty Steals Under $25</h2>
+            <div class="image1" style="background-image: url('makeup.jpg');"></div>
+            <p class="seemore">See all deals</p>
+        </div>
+    </div>
+    <div class="scroll">
+        <h2>Best Sellers in Sports & Outdoors</h2>
+        <div class="scrollitems">
+                <img src="scroll1.jpg" class="scroll1">
+                <img src="scroll2.jpg" class="scroll1">
+                <img src="scroll3.jpg" class="scroll1">
+                <img src="scroll4.jpg" class="scroll1">
+                <img src="scroll6.jpg" class="scroll1">
+                <img src="scroll7.jpg" class="scroll1">
+                <img src="scroll8.jpg" class="scroll1">
+                <img src="scroll9.jpg" class="scroll1">
+                <img src="scroll10.jpg" class="scroll1">
+        </div>
+    </div>
+    <br><br>
+</body>
+
+<!-- FOOTER---------------------------------------------- -->
+
+<footer>
+    <div class="back-to-top">
+        <a href="index.html" class="back">Back to Top</a>
+    </div>
+
+    <div class="panel2">
+        <div class="foot">
+            <p class="footheading">Get to Know Us</p>
+            <ul class="footul">
+                <a>Careers</a>
+                <a>Blog</a>
+                <a>About Amazon</a>
+                <a>Investor Relations</a>
+                <a>Amazon Devices</a>
+                <a>Amazon Science</a>
+            </ul>
+        </div>
+        <div class="foot">
+            <p class="footheading">Make Money With Us</p>
+            <ul class="footul">
+                <a>Sell products on Amazon</a>
+                <a>Sell on Amazon Business</a>
+                <a>Sell apps on Amazon</a>
+                <a>Become an Affiliate</a>
+                <a>Advertise Your Products</a>
+                <a>Self-Publish with Us</a>
+                <a>Host an Amazon Hub</a>
+                <a>› See More Make Money with Us</a>
+            </ul>
+        </div>
+        <div class="foot">
+            <p class="footheading">Amazon Payment Products</p>
+            <ul class="footul">
+                <a>Amazon Business Card</a>
+                <a>Shop with Points</a>
+                <a>Reload Your Balance</a>
+                <a>Amazon Currency Converter</a>
+            </ul>
+        </div>
+        <div class="foot">
+            <p class="footheading">Let Us Help You</p>
+            <ul class="footul">
+                <a>Amazon and COVID-19</a>
+                <a>Your Account</a>
+                <a>Your Orders</a>
+                <a>Shipping Rates & Policies</a>
+                <a>Returns & Replacements</a>
+                <a>Manage Your Content and Devices</a>
+                <a>Help</a>
+            </ul>
+        </div>
+    </div>
+    <div class="panel3">
+        <div class="footlogo"></div>
+        <div class="choosefrom">
+            <a class="footchoose">
+                <i class="fa-solid fa-earth-americas"></i>
+                <p class="foottext">English(US)</p>
+            </a>
+            <a class="footchoose">
+                <i class="fa-solid fa-dollar-sign"></i>
+                <p class="foottext">USD - U.S. Dollar</p>
+            </a>
+            <a class="footchoose">
+                <div class="flag"></div>
+                <p class="foottext">United States</p>
+            </a>
+        </div>
+    </div>
+    <div class="panel4">
+        <div class="footline">
+            <a>Conditions of Use</a>
+            <a>Privacy Notice</a>
+            <a>Consumer Health Data Privacy Disclosure</a>
+            <a>Your Ads Privacy Choices</a>
+        </div>
+        <div class="footline">
+            <p>&copy; 1996-2024, Amazon.com, Inc. or its affiliates</p>
+        </div>
+    </div>
+    <div class="signoff">
+        Clone Created by Anshika Goyal
+        <a href="mailto:anshikagoyal936@gmail.com">anshikagoyal936@gmail.com</a>
+    </div>
+</footer>
+</html>
